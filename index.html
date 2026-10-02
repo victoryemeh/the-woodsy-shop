@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="styles.css"/>
+    <title>The Woodsy Shop</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-header">
+            <div class="nav-logo">
+                <a href="#home" class="logo">The Woodsy Shop</a>
+            </div>
+            <div class="nav-menu_btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav_search" id="nav-search">
+            <input type="text" placeholder="Search...">
+            <span><i class="ri-search-line"></i></span>
+        </div>
+    </nav>
+    <header class="section_container header_container" id="home">
+    <div class="header-img">
+        <img src="assets/header.avif" alt="header">
+    </div>
+    <div class="header-content">
+        <div>
+            <h1>Classy Modern Furniture Just For You</h1>
+        <p>We will help make your space beautiful, elegant and luxurious by providing high-quality, handcrafted wooden furniture that combines functionality with style.</p>
+        </div>
+        
+    </div>
+    </header>
+    <section class="section_container deals-container">
+        <div class="deals-card">
+            <h2 class="section_header">
+                Special deals for you
+            </h2>
+            <p>Check out our limited-time offers and save big on your favorite pieces!</p>
+        </div>
+        <div class="deals-card">
+            <span><i class="ri-cash-line"></i></span>
+            <h4>Affordable Prices</h4>
+            <p>We offer competitive prices on all our products, ensuring you get the best value for your money.</p>
+        </div>
+        <div class="deals-card">
+            <span><i class="ri-calendar-schedule-line"></i></span>
+            <h4>30 day terms</h4>
+            <p>Enjoy flexible payment options with our 30-day payment terms for all your purchases.</p>
+        </div>
+        <div class="deals-card">
+            <span><i class="ri-money-dollar-circle-line "></i></span>
+            <h4>Save Money</h4>
+            <p>Take advantage of our special deals and discounts to save money on top-quality furniture.</p>
+        </div>
+    </section>
+    <section class="section_container about_container" id="about">
+        <div class="about-header">
+            <div>
+                <h2 class="section_header">About Us</h2>
+                <p class="section_description">Our passion for exceptional craftsmanship and dedication to sustainability drive everything we do.</p>
+            </div>
+            <button class="about_btn">Learn More</button>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="assets/furniture-collage.webp" alt="about">
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                <h3>1.</h3>
+                <h4>Who we are</h4>
+                <p>We are a team of skilled artisans and designers who are passionate about creating beautiful, functional furniture that enhances your living spaces.</p>
+            </div>
+            <div class="about-card">
+                <h3>2.</h3>
+                <h4>What we do</h4>
+                <p>We design and craft high-quality, handcrafted wooden furniture that combines functionality with style.</p>
+            </div>
+            <div class="about-card">
+                <h3>3.</h3>
+                <h4>How we do it</h4>
+                <p>We use traditional woodworking techniques and high-quality materials to create durable, beautiful furniture that stands the test of time.</p>
+            </div>
+            <div class="about-card">
+                <h3>4.</h3>
+                <h4>Our Commitment</h4>
+                <p>We are committed to sustainability and ethical practices in every aspect of our business, from sourcing materials to manufacturing processes.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_container product-container" id="products">
+        <h2 class="section_header">Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h4>Dining Table</h4>
+                <p>$199.00</p>
+                <img src="assets/dining-table.avif" alt="Dining Table">
+            </div>
+            <div class="product-card">
+                <h4>Bedside Table</h4>
+                <p>$50.00</p>
+                <img src="assets/stock4.avif" alt="Bedside Table">
+            </div>
+            <div class="product-card">
+                <h4>Ergonomic Chair</h4>
+                <p>$80.00</p>
+                <img src="assets/stock3.avif" alt="Ergonomic Chair">
+            </div>
+            <div class="product-card">
+                <h4>Reading Table</h4>
+                <p>$85.00</p>
+                <img src="assets/furniture2.avif" alt="Reading Table">
+            </div>
+            <div class="product-card">
+                <h4>Swing Chair</h4>
+                <p>$65.00</p>
+                <img src="assets/stock1.avif" alt="Swing Chair">
+            </div>
+            <div class="product-card">
+                <h4>Cafe Seats</h4>
+                <p>$99.00</p>
+                <img src="assets/cafe-seats.avif" alt="Cafe Seats">
+            </div>
+        </div>
+    </section>
+    <section class="section_container clients-container">
+       <div class="client-content">
+         <h2 class="section_header">What our happy clients say</h2>
+        <p class="section_description">Testimonials Highlighting Our Commitment to Quality, Exceptional Service, and Customer Satisfaction.</p>
+         <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <div class="client-card">
+            <img src="assets/client1.avif" alt="client1">
+        <div>
+            <p>"The Woodsy Shop elevated my business with their exquisite furnitures. The craftsmanship is top-notch, and the attention to details is remarkable. I have never regretted doing business with them!"</p>
+        <h4>David M.</h4>
+        <h5>Interior Designer</h5>
+        </div>
+        </div>
+
+    </div>
+    <div class="swiper-slide">
+        <div class="client-card">
+            <img src="assets/client2.avif" alt="client2">
+        <div>
+            <p>"My experience with The Woodsy Shop was exceptional. They delivered beyond my expectations, and the quality of the furniture is outstanding."</p>
+        <h4>Sarah Moses</h4>
+        <h5>Home Owner</h5>
+        </div>
+        </div>
+
+    </div>
+    <div class="swiper-slide">
+        <div class="client-card">
+            <img src="assets/client4.avif" alt="client3">
+        <div>
+            <p>"The Woodsy Shop provided exceptional service and high-quality furniture. I am extremely satisfied with their products and will definitely recommend them to others."</p>
+        <h4>Michael Johnson</h4>
+        <h5>Cafe Owner</h5>
+        </div>
+        </div>
+
+    </div>
+    <div class="swiper-slide">
+        <div class="client-card">
+            <img src="assets/client3.avif" alt="client4">
+        <div>
+            <p>"The Woodsy Shop exceeded my expectations in every way. The quality of the furniture is unmatched, and the customer service is outstanding."</p>
+        <h4>Christine</h4>
+        <h5>Interior Designer</h5>
+        </div>
+        </div>
+
+    </div>
+    
+  </div>
+
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="section_container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">The Woodsy Shop</a>
+                </div>
+                <p>We are committed to providing high-quality, handcrafted wooden furniture that combines functionality with style.</p>
+           <ul class="footer-social">
+            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+            <li><a href="#"><i class="ri-pinterest-fill"></i></a></li>
+        </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Furniture Design</a></li>
+                    <li><a href="#">Custom Orders</a></li>
+                    <li><a href="#">Delivery & Assembly</a></li>
+                    <li><a href="#">Consultation</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Cancelation Policy</a></li>
+                    <li><a href="#">Security</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+           Copyright &copy; 2026 VeeCodes. All rights reserved. 
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
